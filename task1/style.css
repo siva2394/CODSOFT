@@ -1,0 +1,164 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:cursive;
+    color: black;
+    position: relative;
+}
+header
+{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    background:transparent;
+    padding:20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 15px 15px rgba(0,0,0,0.5);
+}
+.logo
+{
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight:700 ;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.group
+{
+    display: flex;
+    align-items: center;
+}
+header ul
+{
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+header ul li
+{
+    list-style: none;
+}
+header ul li a
+{
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+.image img{
+    float:right;
+    width:60%;
+    height: 60%;
+}
+.Home{
+    float:left;
+    position: center;
+}
+.text{
+    
+    padding-top: 17%;
+}
+.text h1{
+    padding-left: 30px;
+    text-decoration: underline;
+}
+.text p{
+    text-align: center;
+    color:rgb(25, 0, 255);
+}
+.clear-float {
+    clear: both;
+}
+.Skills{
+    display: flex;
+    flex-direction: column;
+    
+}
+.s1
+{
+    width: 3000px;
+    height:350px;
+    margin:10px;
+    overflow: hidden;
+    transition: transform 0.2s ease-in-out;
+    /*background-color: black;*/
+    border-radius: 20px;
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.s1:hover{
+    transform: scale(1.1);
+}
+.s1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Project{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.project{
+    width:700px;
+    height:500px;
+    margin:10px;
+    padding: 10px;
+    border:1px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.project:hover{
+    transform: scale(1.1);
+}
+.project img{
+    max-width: 100%;
+    max-height: 70%;
+    object-fit: cover;
+}
+.certificates{
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+    border-radius: 15px;
+}
+.cert1 img{
+    width:500px;
+    height:300px;
+    /*max-width: 100%;
+    max-height:100%;*/
+}
+.certificates .title{
+    font-size: 20px;
+    padding-left: 20px;
+}
+.certificates:hover{
+    transition: transform 0.3s ease-in-out;
+    transform:scale(0.9);
+}
+.social-icons .fa-brands{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #000;
+    background: #fff;
+    margin-right: 15px;
+    cursor: pointer;
+}
